@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charser="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title> Fashion </title>
+    </head>
+    <body>
+        <header id="header">
+            <div id="logo">
+                <a href ="#top">
+                <img class="logo-img" src="images/Logo/logo fashion.png"> 
+                </a>  
+            </div>
+
+            <div id="search">
+                <input type="text" placeholder="Tìm kiếm..." id="search-input">
+            </div>
+        
+
+        <nav id="menu">
+            <a href="#top">TRANG CHỦ</a>
+            <a href="#outfitnam"> OUTFIT CHO NAM </a>
+            <a href="#outfitnu"> OUTFIT CHO NỮ </a>
+            <a href="#thuonghieu"> THƯƠNG HIỆU GENZ</a>
+         </nav>
+            <div id="icon">
+                <img id="icon_user" src="images/Icon/iconuser.png" alt="" width="60px">
+            </div>
+
+        </header>
+        <header>
+             <div id="banner">
+                <div id="box-left">
+                    <h2>
+                       <a>Outfit Mùa Hè</a>
+                    </h2>
+                    <p>Lại thêm một set đồ quá hợp cho những ngày hè oi bức. 
+                    <p>Nếu bạn đang băn khoăn không biết nên mang trang phục như thế nào cho chuyến đi biển vào hè này thì tất nhiên đừng bỏ qua set đồ họa tiết này nhé.</p>
+                    <p>Với cách mix đồ cực đơn giản đó là áo sơ mi họa tiết kết hợp với quần đùi đồng màu là set đồ thoải mái hơn cả khi đi biển.</p>
+                        <button> Xem thêm </button>
+                </div>
+                <div id="box-right">
+                    <img src="images/Banner/bannerdibien2.jpg" alt="" width="200px">
+                    <img src="images/Banner/bannerdibien1.jpg" alt="" width="200px">
+                    <img src="images/Banner/bannerdibien3.jpg" alt="" width="200px">
+                </div>
+                <div id="to-bottom">
+                    <a href="#footer">
+                        <div>
+                            <img src="images/Icon/icon-bottom.png" alt="" width="50px">
+                        </div>
+                    </a>
+                </div>
+            </div>
+         </header>
+        <main> 
+            <section id="outfitnam">
+                <h2> OUTFIT CHO NAM </h2>
+                <div id="data"> </div>
+            </section>
+            <section id="outfitnu" >
+                <h2> OUTFIT CHO NỮ </h2>
+                <div id="data"> </div>
+            </section>
+            <section id="thuonghieu">
+                <h2> Thương hiệu GenZ </h2>
+                <div id="data"></div>
+            </section>
+        </main>
+
+        <footer>
+            <div id ="footer">
+                <div id= "footer_icon">
+                        <img src = "images/Icon/fb_icon.png" atl="Facebook"  width="70px">
+                        <p>https://www.facebook.com/buiminhnam271004</p>
+                
+                        <img src = "images/Icon/ig_icon.png"atl=""  width="40px">
+                        <p>https://www.instagram.com/minhnam04_/</p>
+                    
+                        <img src = "images/Icon/gm.png"atl=""  width="50px">
+                        <p>buiminhnam271004@gmail.com</p>
+                </div>
+            <h4>Họ tên sinh viên: Bùi Minh Nam - PS30912</h4>     
+            </div>           
+        </footer>
+    </body>
+</html>
+<script type="module">
+    import { showoutfitnam, showoutfitnu, showthuonghieu } from './js/app.js'
+    document.querySelector ("#outfitnam #data").innerHTML = showoutfitnam();
+    document.querySelector ("#outfitnu #data").innerHTML = showoutfitnu();
+    document.querySelector ("#thuonghieu #data").innerHTML = await showthuonghieu();
+</script>

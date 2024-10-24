@@ -1,0 +1,12 @@
+{
+    "thuong_hieu":[
+    {"id":"1", "ten":"Bad Habits ", "anh": "images/Thương hiệu/bad habits.jpg" , "thu_tu":1, "an_hien":1}, 
+    {"id":"2", "ten":"Mixer","anh": "images/Thương hiệu/mixer.jpg", "thu_tu":2, "an_hien":1}, 
+    {"id":"3", "ten":"5TheWay","anh": "images/Thương hiệu/5theway.jpg", "thu_tu":3, "an_hien":1},
+    {"id":"4", "ten":"Nowsaigon","anh": "images/Thương hiệu/nowsg.png", "thu_tu":4, "an_hien":1}, 
+    {"id":"5", "ten":"Missout","anh": "images/Thương hiệu/missout.png", "thu_tu":5, "an_hien":1}, 
+    {"id":"6", "ten":"Sly Clothing","anh": "images/Thương hiệu/sly.jpg", "thu_tu":6, "an_hien":1},
+    {"id":"7", "ten":"Bo Bụi", "anh": "images/Thương hiệu/BoBui.jpg","thu_tu":7, "an_hien":1},
+    {"id":"8", "ten":"UNCOVER","anh": "images/Thương hiệu/uncover.png","thu_tu":8, "an_hien":1}
+]
+}
